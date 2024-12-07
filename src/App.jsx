@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="text-3xl underline my-4 py-2">Ligma</h1>
+        <h1 className="text-3xl underline my-4 py-2">Play</h1>
 
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
 
